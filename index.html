@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Janete Belo · Consultora Independente Mary Kay</title>
+<meta name="description" content="Produtos premium Mary Kay com consultoria personalizada. Janete Belo, sua consultora independente. Descubra sua melhor versão.">
+
+<!-- Fontes: Marcellus (display, luxo) + Outfit (corpo, moderno) -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Marcellus&family=Outfit:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<!-- ================= HEADER ================= -->
+<header class="header" id="header">
+  <div class="container header__inner">
+    <a href="#" class="logo">
+      <span class="logo__monograma">JB</span>
+      <span class="logo__texto">
+        <span class="logo__nome">Janete Belo</span>
+        <span class="logo__sub">Consultora Independente Mary Kay</span>
+      </span>
+    </a>
+    <button class="menu-btn" id="menuBtn" aria-label="Abrir menu">☰</button>
+    <nav class="nav" id="nav">
+      <a href="#produtos">Produtos</a>
+      <a href="#depoimentos">Depoimentos</a>
+      <a href="#consultora">Consultoria</a>
+      <a href="#contato" class="btn btn--fantasma">Agendar consultoria</a>
+    </nav>
+  </div>
+</header>
+
+<!-- ================= HERO ================= -->
+<section class="hero">
+  <span class="hero__marca" aria-hidden="true">JB</span>
+  <svg class="hero__linha" viewBox="0 0 1440 800" preserveAspectRatio="none" aria-hidden="true">
+    <path d="M-50,600 C300,500 500,720 800,560 C1050,430 1200,520 1500,380"/>
+  </svg>
+  <div class="container hero__conteudo">
+    <span class="hero__eyebrow entrada entrada--1">Beleza premium · Atendimento pessoal</span>
+    <h1 class="entrada entrada--2">Sua beleza,<br><em>redefinida.</em></h1>
+    <p class="entrada entrada--3">Produtos premium Mary Kay com consultoria personalizada para você descobrir sua melhor versão — com quem entende da sua pele.</p>
+    <div class="hero__ctas entrada entrada--4">
+      <a href="#produtos" class="btn"><span>Explorar coleção</span><span class="seta">→</span></a>
+      <a href="#contato" class="btn btn--fantasma"><span>Consultoria gratuita</span></a>
+    </div>
+    <div class="hero__prova entrada entrada--5">
+      <div class="hero__avatares">
+        <span>MC</span><span>LF</span><span>AP</span><span>+</span>
+      </div>
+      <p><strong>+200 clientes atendidas</strong><br>com consultoria personalizada</p>
+    </div>
+  </div>
+</section>
+
+<!-- ================= PRODUTOS ================= -->
+<section class="secao secao--clara" id="produtos">
+  <div class="container">
+    <div class="secao__topo reveal">
+      <span class="secao__eyebrow">Coleção exclusiva</span>
+      <h2>Os favoritos de quem já se apaixonou</h2>
+      <p>Seleção curada dos produtos mais pedidos, com entrega rápida e orientação de uso incluída.</p>
+    </div>
+
+    <div class="produtos__grid">
+      <!-- PRODUTO 1 -->
+      <article class="produto reveal">
+        <div class="produto__foto">
+          <span class="produto__selo">Mais vendido</span>
+          <!-- Troque este span por <img src="serum.jpg" alt="Sérum Ativador de Juventude"> -->
+          <span class="produto__marca" aria-hidden="true">JB</span>
+        </div>
+        <div class="produto__corpo">
+          <h3>Sérum Ativador de Juventude</h3>
+          <p>Tratamento intensivo que devolve firmeza e luminosidade à pele em poucas semanas de uso.</p>
+          <div class="produto__rodape">
+            <div class="produto__preco">
+              <span class="de">R$ 189,00</span>
+              <span class="por">R$ 152,00</span>
+            </div>
+            <a class="btn btn--escuro js-comprar" data-produto="Sérum Ativador de Juventude" href="#"><span>Comprar</span></a>
+          </div>
+        </div>
+      </article>
+
+      <!-- PRODUTO 2 -->
+      <article class="produto reveal">
+        <div class="produto__foto">
+          <span class="produto__marca" aria-hidden="true">JB</span>
+        </div>
+        <div class="produto__corpo">
+          <h3>Creme Nutritivo Noite</h3>
+          <p>Nutrição profunda enquanto você dorme: acorde com a pele macia, descansada e renovada.</p>
+          <div class="produto__rodape">
+            <div class="produto__preco">
+              <span class="por">R$ 128,00</span>
+            </div>
+            <a class="btn btn--escuro js-comprar" data-produto="Creme Nutritivo Noite" href="#"><span>Comprar</span></a>
+          </div>
+        </div>
+      </article>
+
+      <!-- PRODUTO 3 -->
+      <article class="produto reveal">
+        <div class="produto__foto">
+          <span class="produto__selo">Kit completo</span>
+          <span class="produto__marca" aria-hidden="true">JB</span>
+        </div>
+        <div class="produto__corpo">
+          <h3>Kit Maquiagem Perfeita</h3>
+          <p>Tudo para um make impecável do dia a dia à noite especial — com dicas de aplicação da Janete.</p>
+          <div class="produto__rodape">
+            <div class="produto__preco">
+              <span class="por">R$ 246,00</span>
+            </div>
+            <a class="btn btn--escuro js-comprar" data-produto="Kit Maquiagem Perfeita" href="#"><span>Comprar</span></a>
+          </div>
+        </div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- ================= DEPOIMENTOS ================= -->
+<section class="secao secao--escura" id="depoimentos">
+  <div class="container">
+    <div class="secao__topo reveal">
+      <span class="secao__eyebrow">Depoimentos</span>
+      <h2>Quem experimentou, recomenda</h2>
+      <p>Histórias reais de clientes que transformaram a rotina de cuidados com a pele.</p>
+    </div>
+    <div class="depoimentos__grid">
+      <article class="depoimento reveal">
+        <div class="depoimento__estrelas" aria-label="5 estrelas">★★★★★</div>
+        <p>"Sempre fui fã da Mary Kay, mas o atendimento da Janete é único. Ela entendeu exatamente o que minha pele precisava."</p>
+        <div class="depoimento__autor">
+          <span class="depoimento__avatar">JU</span>
+          <div><strong>Juliana M.</strong><span>Cliente há 2 anos</span></div>
+        </div>
+      </article>
+      <article class="depoimento reveal">
+        <div class="depoimento__estrelas" aria-label="5 estrelas">★★★★★</div>
+        <p>"Produtos incríveis, pele renovada! A consultoria gratuita me ajudou a montar uma rotina que finalmente funciona."</p>
+        <div class="depoimento__autor">
+          <span class="depoimento__avatar">LA</span>
+          <div><strong>Larissa F.</strong><span>Cliente há 1 ano</span></div>
+        </div>
+      </article>
+      <article class="depoimento reveal">
+        <div class="depoimento__estrelas" aria-label="5 estrelas">★★★★★</div>
+        <p>"Entrega rápida, atendimento atencioso e resultado visível em semanas. Virei cliente fiel e já indiquei para todas as amigas."</p>
+        <div class="depoimento__autor">
+          <span class="depoimento__avatar">MO</span>
+          <div><strong>Márcia O.</strong><span>Cliente há 3 anos</span></div>
+        </div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- ================= CONSULTORA ================= -->
+<section class="secao secao--clara" id="consultora">
+  <div class="container consultora">
+    <div class="consultora__foto reveal">
+      <!-- Troque por <img src="janete.jpg" alt="Janete Belo, consultora Mary Kay"> -->
+      <span class="produto__marca" aria-hidden="true">JB</span>
+    </div>
+    <div class="consultora__texto reveal">
+      <span class="secao__eyebrow">Conheça sua consultora</span>
+      <h2>Janete Belo</h2>
+      <p>Consultora independente Mary Kay apaixonada por realçar a beleza única de cada cliente. Mais do que vender produtos, meu compromisso é entender a sua pele, a sua rotina e os seus objetivos — e montar com você um plano de cuidados que realmente funciona.</p>
+      <div class="consultora__stats">
+        <div class="stat"><strong>+200</strong><span>clientes atendidas</span></div>
+        <div class="stat"><strong>5★</strong><span>avaliação média</span></div>
+        <div class="stat"><strong>100%</strong><span>consultoria gratuita</span></div>
+      </div>
+      <a href="#contato" class="btn"><span>Agendar minha consultoria</span><span class="seta">→</span></a>
+    </div>
+  </div>
+</section>
+
+<!-- ================= CTA FINAL ================= -->
+<section class="secao secao--escura" id="contato">
+  <div class="container">
+    <div class="cta-final reveal">
+      <h2>Pronta para transformar sua rotina de beleza?</h2>
+      <p>Fale agora com a Janete no WhatsApp e receba uma consultoria gratuita e sem compromisso.</p>
+      <a class="btn js-whats" href="#"><span>Iniciar minha jornada de beleza</span><span class="seta">→</span></a>
+    </div>
+  </div>
+</section>
+
+<!-- ================= FOOTER ================= -->
+<footer class="footer">
+  <div class="container">
+    <div class="footer__grid">
+      <div>
+        <a href="#" class="logo" style="margin-bottom:1rem">
+          <span class="logo__monograma">JB</span>
+          <span class="logo__texto">
+            <span class="logo__nome">Janete Belo</span>
+            <span class="logo__sub">Consultora Independente Mary Kay</span>
+          </span>
+        </a>
+        <p>Beleza premium com atendimento pessoal. Produtos Mary Kay originais com entrega em toda a região.</p>
+        <div class="footer__social">
+          <a href="#" aria-label="Instagram">◈</a>
+          <a href="#" aria-label="Facebook">ƒ</a>
+          <a href="#" aria-label="WhatsApp" class="js-whats">✆</a>
+        </div>
+      </div>
+      <div>
+        <h4>Navegação</h4>
+        <ul>
+          <li><a href="#produtos">Produtos</a></li>
+          <li><a href="#depoimentos">Depoimentos</a></li>
+          <li><a href="#consultora">Consultoria</a></li>
+          <li><a href="#contato">Contato</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Contato</h4>
+        <ul>
+          <li><a href="#" class="js-whats">WhatsApp: (81) 9 0000-0000</a></li>
+          <li><a href="mailto:contato@janetebelo.com">contato@janetebelo.com</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer__base">
+      © 2026 Janete Belo · Consultora Independente Mary Kay. Todos os direitos reservados.
+    </div>
+  </div>
+</footer>
+
+<!-- ================= WHATSAPP FLUTUANTE ================= -->
+<a class="whats js-whats" href="#" aria-label="Falar no WhatsApp">
+  <svg viewBox="0 0 32 32"><path d="M16 .8C7.6.8.8 7.6.8 16c0 2.7.7 5.3 2 7.6L.8 31.2l7.8-2c2.2 1.2 4.7 1.9 7.4 1.9 8.4 0 15.2-6.8 15.2-15.2S24.4.8 16 .8zm0 27.7c-2.4 0-4.7-.7-6.7-1.9l-.5-.3-4.6 1.2 1.2-4.5-.3-.5c-1.3-2-2-4.4-2-6.8C3.1 8.9 8.9 3.1 16 3.1S28.9 8.9 28.9 16 23.1 28.5 16 28.5zm7-9.6c-.4-.2-2.3-1.1-2.6-1.2-.4-.1-.6-.2-.9.2-.3.4-1 1.2-1.2 1.5-.2.2-.4.3-.8.1-.4-.2-1.6-.6-3.1-1.9-1.1-1-1.9-2.3-2.1-2.6-.2-.4 0-.6.2-.8l.6-.7c.2-.2.3-.4.4-.6.1-.3 0-.5 0-.7-.1-.2-.9-2.1-1.2-2.9-.3-.8-.6-.7-.9-.7h-.7c-.3 0-.7.1-1 .5-.4.4-1.4 1.3-1.4 3.2s1.4 3.7 1.6 4c.2.3 2.8 4.2 6.7 5.9.9.4 1.7.6 2.2.8.9.3 1.8.3 2.5.2.8-.1 2.3-1 2.7-1.9.3-.9.3-1.7.2-1.9-.1-.2-.3-.3-.7-.5z"/></svg>
+</a>
+
+<script src="js/main.js"></script>
+</body>
+</html>
